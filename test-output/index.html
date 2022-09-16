@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\sel-67\WASM_5_Framework\testng_Compaibiliy.xml</span>
+                    <span>D:\sel-67\WASM_5_Framework\testng_batch.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,26 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,  2 skipped,  2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="vtiger.ContactsTests.createContactWithOrgtestng" class="method navigator-link" hash-for-method="createContactWithOrgTest">createContactWithOrgTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="vtiger.ContactsTests.createContactWithOrgtestng" class="method navigator-link" hash-for-method="createContactWithOrgTest">createContactWithOrgTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">4 methods,  4 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -123,7 +104,17 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="vtiger.ContactsTests.createContactWithOrgtestng" class="method navigator-link" hash-for-method="demoRegression">demoRegression</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="vtiger.ContactsTests.CreateContactTest" class="method navigator-link" hash-for-method="createContactTest">createContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="vtiger.ContactsTests.createContactWithOrgtestng" class="method navigator-link" hash-for-method="createContactWithOrgTest">createContactWithOrgTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="vtiger.OrganisationTest.CreateOrganisationTesting" class="method navigator-link" hash-for-method="createOrgnisationTesting">createOrgnisationTesting</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,25 +123,6 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="vtiger.ContactsTests.CreateContactTest" class="method navigator-link" hash-for-method="createContactTest">createContactTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="vtiger.ContactsTests.CreateContactTest" class="method navigator-link" hash-for-method="createContactTest">createContactTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -162,46 +134,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">vtiger.ContactsTests.createContactWithOrgtestng</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createContactWithOrgTest">
-                  </a> <!-- createContactWithOrgTest -->
-                  <span class="method-name">createContactWithOrgTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at vtiger.ContactsTests.createContactWithOrgtestng.createContactWithOrgTest(createContactWithOrgtestng.java:62)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createContactWithOrgTest">
-                  </a> <!-- createContactWithOrgTest -->
-                  <span class="method-name">createContactWithOrgTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at vtiger.ContactsTests.createContactWithOrgtestng.createContactWithOrgTest(createContactWithOrgtestng.java:62)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -210,39 +142,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="demoRegression">
-                  </a> <!-- demoRegression -->
-                  <span class="method-name">demoRegression</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;user_name&apos;]&quot;}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1H1R9GO&apos;, ip: &apos;192.168.171.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Pawan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 38010215313976b2f8261fa0cd9cc734
-*** Element info: {Using=name, value=user_name}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
-	at vtiger.ObjectRepository.LoginPage.loginToApp(LoginPage.java:45)
-	at vtiger.GenericUtility.BaseClass.bmConfig(BaseClass.java:84)
+                  <a name="createContactWithOrgTest">
+                  </a> <!-- createContactWithOrgTest -->
+                  <span class="method-name">createContactWithOrgTest</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: .\src\test\resources\commonData.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at vtiger.GenericUtility.PropertyFileUtility.readDataFromPropertyFile(PropertyFileUtility.java:24)
+	at vtiger.GenericUtility.BaseClass.bcConfig(BaseClass.java:51)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 27 stack frames
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -251,44 +162,23 @@ Session ID: 38010215313976b2f8261fa0cd9cc734
                   <a name="demoRegression">
                   </a> <!-- demoRegression -->
                   <span class="method-name">demoRegression</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;user_name&apos;]&quot;}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1H1R9GO&apos;, ip: &apos;192.168.171.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Pawan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2cd49af27197c0c66ebb7ddd88eb1252
-*** Element info: {Using=name, value=user_name}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
-	at vtiger.ObjectRepository.LoginPage.loginToApp(LoginPage.java:45)
-	at vtiger.GenericUtility.BaseClass.bmConfig(BaseClass.java:84)
+                  <div class="stack-trace">java.io.FileNotFoundException: .\src\test\resources\commonData.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at vtiger.GenericUtility.PropertyFileUtility.readDataFromPropertyFile(PropertyFileUtility.java:24)
+	at vtiger.GenericUtility.BaseClass.bcConfig(BaseClass.java:51)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 27 stack frames
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">vtiger.ContactsTests.CreateContactTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -297,41 +187,65 @@ Session ID: 2cd49af27197c0c66ebb7ddd88eb1252
                   <a name="createContactTest">
                   </a> <!-- createContactTest -->
                   <span class="method-name">createContactTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createContactTest">
-                  </a> <!-- createContactTest -->
-                  <span class="method-name">createContactTest</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: .\src\test\resources\commonData.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at vtiger.GenericUtility.PropertyFileUtility.readDataFromPropertyFile(PropertyFileUtility.java:24)
+	at vtiger.GenericUtility.BaseClass.bcConfig(BaseClass.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">vtiger.OrganisationTest.CreateOrganisationTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createOrgnisationTesting">
+                  </a> <!-- createOrgnisationTesting -->
+                  <span class="method-name">createOrgnisationTesting</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: .\src\test\resources\commonData.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at vtiger.GenericUtility.PropertyFileUtility.readDataFromPropertyFile(PropertyFileUtility.java:24)
+	at vtiger.GenericUtility.BaseClass.bcConfig(BaseClass.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\sel-67\WASM_5_Framework\testng_Compaibiliy.xml</span>
+            <span class="header-content">D:\sel-67\WASM_5_Framework\testng_batch.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Test-Runner-Chrome&quot;&gt;
-    &lt;parameter name=&quot;BROWSER&quot; value=&quot;Chrome&quot;/&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;vtiger.GenericUtility.ListenerImplementation&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;vtiger.ContactsTests.createContactWithOrgtestng&quot;/&gt;
+      &lt;class name=&quot;vtiger.OrganisationTest.CreateOrganisationTesting&quot;/&gt;
       &lt;class name=&quot;vtiger.ContactsTests.CreateContactTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test-Runner-Chrome --&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Test-Runner-Firefox&quot;&gt;
-    &lt;parameter name=&quot;BROWSER&quot; value=&quot;Firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;vtiger.ContactsTests.createContactWithOrgtestng&quot;/&gt;
-      &lt;class name=&quot;vtiger.ContactsTests.CreateContactTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test-Runner-Firefox --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -343,10 +257,7 @@ Session ID: 2cd49af27197c0c66ebb7ddd88eb1252
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test-Runner-Chrome (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Test-Runner-Firefox (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -388,36 +299,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createContactTest')
-data.setCell(0, 2, 'vtiger.ContactsTests.CreateContactTest')
-data.setCell(0, 3, 85309);
+data.setCell(0, 1, 'createContactWithOrgTest')
+data.setCell(0, 2, 'vtiger.ContactsTests.createContactWithOrgtestng')
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'createContactTest')
-data.setCell(1, 2, 'vtiger.ContactsTests.CreateContactTest')
-data.setCell(1, 3, 85088);
+data.setCell(1, 1, 'demoRegression')
+data.setCell(1, 2, 'vtiger.ContactsTests.createContactWithOrgtestng')
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createContactWithOrgTest')
-data.setCell(2, 2, 'vtiger.ContactsTests.createContactWithOrgtestng')
-data.setCell(2, 3, 56032);
+data.setCell(2, 1, 'createContactTest')
+data.setCell(2, 2, 'vtiger.ContactsTests.CreateContactTest')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createContactWithOrgTest')
-data.setCell(3, 2, 'vtiger.ContactsTests.createContactWithOrgtestng')
-data.setCell(3, 3, 55853);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'demoRegression')
-data.setCell(4, 2, 'vtiger.ContactsTests.createContactWithOrgtestng')
-data.setCell(4, 3, 0);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'demoRegression')
-data.setCell(5, 2, 'vtiger.ContactsTests.createContactWithOrgtestng')
-data.setCell(5, 3, 0);
+data.setCell(3, 1, 'createOrgnisationTesting')
+data.setCell(3, 2, 'vtiger.OrganisationTest.CreateOrganisationTesting')
+data.setCell(3, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -428,38 +331,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createContactTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Contacts link clicked</span>
-                <span class="reporter-method-output">Create Contact Look up img created</span>
-                <span class="reporter-method-output">new Contact with lastname created</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createContactWithOrgTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Organisation link clicked,true</span>
-                <span class="reporter-method-output">create org look up img cliccked</span>
-                <span class="reporter-method-output">New Organization created</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createContactTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Contacts link clicked</span>
-                <span class="reporter-method-output">Create Contact Look up img created</span>
-                <span class="reporter-method-output">new Contact with lastname created</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createContactWithOrgTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Organisation link clicked,true</span>
-                <span class="reporter-method-output">create org look up img cliccked</span>
-                <span class="reporter-method-output">New Organization created</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -472,9 +343,14 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">bsConfig</span>
                 <br/>
-                <span class="ignored-method-name">bsConfig</span>
-                <br/>
                 <span class="ignored-method-name">asConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">vtiger.OrganisationTest.CreateOrganisationTesting</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">bsConfig</span>
                 <br/>
                 <span class="ignored-method-name">asConfig</span>
                 <br/>
@@ -494,132 +370,95 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">bcConfig</span>
-                <span class="method-start">1806 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">bcConfig</span>
-                <span class="method-start">1806 ms</span>
+                <span class="method-start">11843 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">bmConfig</span>
-                <span class="method-start">110171 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">bmConfig</span>
-                <span class="method-start">110171 ms</span>
+                <span class="method-start">11992 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">createContactWithOrgTest</span>
-                <span class="method-start">190666 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">createContactWithOrgTest</span>
-                <span class="method-start">190838 ms</span>
+                <span class="method-start">11996 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">amConfig</span>
-                <span class="method-start">247154 ms</span>
+                <span class="method-start">12235 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">bmConfig</span>
-                <span class="method-start">247168 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">amConfig</span>
-                <span class="method-start">247246 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">bmConfig</span>
-                <span class="method-start">247247 ms</span>
+                <span class="method-start">12253 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">demoRegression</span>
-                <span class="method-start">267406 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">demoRegression</span>
-                <span class="method-start">267406 ms</span>
+                <span class="method-start">12255 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">amConfig</span>
-                <span class="method-start">267412 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">amConfig</span>
-                <span class="method-start">267414 ms</span>
+                <span class="method-start">12261 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">acConfig</span>
-                <span class="method-start">267416 ms</span>
+                <span class="method-start">12264 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">vtiger.OrganisationTest.CreateOrganisationTesting</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bcConfig</span>
+                <span class="method-start">12272 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">12277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createOrgnisationTesting</span>
+                <span class="method-start">12279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">12286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">acConfig</span>
+                <span class="method-start">12287 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">vtiger.ContactsTests.CreateContactTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">bcConfig</span>
-                <span class="method-start">267418 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">vtiger.ContactsTests.createContactWithOrgtestng</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">acConfig</span>
-                <span class="method-start">267419 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">vtiger.ContactsTests.CreateContactTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">bcConfig</span>
-                <span class="method-start">267421 ms</span>
+                <span class="method-start">12289 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">bmConfig</span>
-                <span class="method-start">287292 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">bmConfig</span>
-                <span class="method-start">292968 ms</span>
+                <span class="method-start">12293 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createContactTest</span>
-                <span class="method-start">308615 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">createContactTest</span>
-                <span class="method-start">308836 ms</span>
+                <span class="method-start">12294 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">amConfig</span>
-                <span class="method-start">393926 ms</span>
+                <span class="method-start">12300 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">acConfig</span>
-                <span class="method-start">393927 ms</span>
+                <span class="method-start">12301 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="configuration-class after">
-                <span class="method-name">acConfig</span>
-                <span class="method-start">393928 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-method after">
-                <span class="method-name">amConfig</span>
-                <span class="method-start">393928 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">vtiger.ContactsTests.createContactWithOrgtestng</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">asConfig</span>
-                <span class="method-start">401175 ms</span>
+                <span class="method-start">18382 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
